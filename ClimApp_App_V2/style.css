@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #f2e9e4, #c9ada7);
+  color: #222;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 30vh;
+}
+
+#splash-screen {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #f2e9e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  background-color: #a89c94;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.weather-card {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px #aaa;
+  text-align: center;
+}
+
+.temp-block {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 3em;
+}
+
+.details p {
+  margin: 4px;
+}
+
+.suggestion {
+  margin-top: 15px;
+  font-style: italic;
+  background-color: #f8f4f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+#touch-controls {
+  margin-top: 10px;
+}
+
+#touch-controls button {
+  font-size: 2em;
+  margin: 5px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background: #a89c94;
+  color: white;
+  border: none;
+  box-shadow: 0 0 5px #555;
+}
